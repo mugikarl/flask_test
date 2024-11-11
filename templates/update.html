@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<head><title>Update Item</title></head>
+    <h1>Update Item</h1>
+    <form method="POST">
+        <input type="text" name="name" placeholder="{{ item.name }}">
+        <button type="submit">Update</button>
+    </form>
+{% endblock %}
